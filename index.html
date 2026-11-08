@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proteção social do idoso: como se defender de golpes e descontos indevidos no benefício</title>
+<meta name="description" content="Guia simples de orientação jurídica sobre fraudes previdenciárias: principais golpes, como evitar, o que fazer e a quem recorrer. Projeto de Extensão V – Direito – UNAMA.">
+<style>
+  :root{
+    --cream:#f6f1e7; --green:#1f3d2b; --teal:#2a6f6b; --gold:#b8872e;
+    --ink:#22291f; --muted:#5b645a; --card:#ffffff; --line:#e3dccb;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--cream);color:var(--ink);
+    font-family:Inter,"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+    font-size:18px;line-height:1.7}
+  h1,h2,h3{font-family:Georgia,"Times New Roman",serif;color:var(--green);line-height:1.2;margin:0}
+  a{color:var(--teal)}
+  .wrap{max-width:820px;margin:0 auto;padding:0 22px}
+  header.hero{background:var(--green);color:#fff;padding:56px 0 48px}
+  .eyebrow{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:700}
+  header.hero .eyebrow{color:#e0b867}
+  header.hero h1{color:#fff;font-size:clamp(1.9rem,5vw,2.8rem);margin:.5rem 0 .8rem}
+  header.hero p.sub{font-size:1.1rem;margin:0 0 1.2rem;color:#dfe8e0;max-width:640px}
+  .meta{font-size:.9rem;color:#c8d6cb}
+  nav.toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin:28px 0}
+  nav.toc strong{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+  nav.toc ol{margin:.6rem 0 0;padding-left:1.2rem;font-size:.98rem;columns:2;column-gap:28px}
+  nav.toc li{margin:.15rem 0}
+  section{margin:44px 0}
+  section .eyebrow{display:block;margin-bottom:.35rem}
+  h2{font-size:clamp(1.5rem,3.6vw,2rem);margin-bottom:.8rem}
+  h3{font-size:1.15rem;margin:1.2rem 0 .3rem}
+  p{margin:.7rem 0}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:20px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .stat .n{font-family:Georgia,serif;font-size:2.4rem;color:var(--teal);font-weight:700;line-height:1}
+  .stat p{margin:.5rem 0 0;font-size:.95rem;color:var(--muted)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin:18px 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+  .card h3{margin-top:0;font-size:1.05rem}
+  .card p{font-size:.96rem;margin:.4rem 0 0}
+  .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:.2rem}
+  .callout{background:var(--green);color:#fff;border-radius:16px;padding:24px 26px;margin:26px 0}
+  .callout h3{color:#fff;margin-top:0}
+  .callout ul{margin:.6rem 0 0;padding-left:1.2rem}
+  .callout li{margin:.3rem 0}
+  .callout .eyebrow{color:#e0b867}
+  .warn{border-left:5px solid var(--gold);background:#fbf4e1;padding:14px 18px;border-radius:0 12px 12px 0;margin:20px 0;font-size:.98rem}
+  ul.check{list-style:none;padding:0;margin:.8rem 0}
+  ul.check li{padding-left:1.8rem;position:relative;margin:.55rem 0}
+  ul.check li::before{content:"✓";position:absolute;left:0;color:var(--teal);font-weight:700}
+  ul.stop li::before{content:"✕";color:#a33b2b}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:.96rem}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#efe8d6;color:var(--green);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+  tr:last-child td{border-bottom:none}
+  .closing{text-align:center;font-family:Georgia,serif;font-size:1.5rem;color:var(--green);margin:50px 0 10px}
+  footer{background:var(--green);color:#cfdcd2;padding:34px 0;font-size:.9rem;line-height:1.6}
+  footer a{color:#e0b867}
+  footer h4{color:#fff;margin:0 0 .4rem;font-size:.95rem}
+  .sources{font-size:.88rem;color:var(--muted);line-height:1.55}
+  .sources li{margin:.25rem 0}
+  @media(max-width:600px){body{font-size:17px}nav.toc ol{columns:1}table,th,td{font-size:.9rem}}
+  @media print{header.hero,footer{background:#fff;color:#000}header.hero h1{color:#000}nav.toc{display:none}}
+  p,li,td,.card p,.stat p,.warn,.sources li{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+  .closing,.meta{text-align:center}
+  header.hero p.sub,header.hero .meta{text-align:left}
+  #progress{position:fixed;top:0;left:0;height:4px;width:0;background:var(--gold);z-index:100}
+  #topo{position:fixed;right:18px;bottom:18px;width:46px;height:46px;border:none;border-radius:50%;background:var(--green);color:#fff;font-size:1.3rem;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .25s;box-shadow:0 3px 10px rgba(0,0,0,.25);z-index:100}
+  #topo.show{opacity:1;pointer-events:auto}
+  section{scroll-margin-top:16px}
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  @media print{#progress,#topo{display:none}}
+  .js .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease;transition-delay:var(--d,0s)}
+  .js .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}}
+  @media print{.js .reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<button id="topo" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Extensão V · Direito · UNAMA</div>
+    <h1>Proteção social do idoso</h1>
+    <p class="sub">Como reconhecer golpes e descontos indevidos no benefício do INSS, o que fazer se acontecer e a quem pedir ajuda.</p>
+    <div class="meta">Rio Branco – AC · 2026 · Leitura de cerca de 8 minutos</div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<nav class="toc" aria-label="Sumário">
+  <strong>Neste guia</strong>
+  <ol>
+    <li><a href="#projeto">Sobre o projeto</a></li>
+    <li><a href="#contexto">Por que isso importa</a></li>
+    <li><a href="#conceitos">Conceitos básicos</a></li>
+    <li><a href="#golpes">Principais golpes</a></li>
+    <li><a href="#evitar">Como se proteger</a></li>
+    <li><a href="#aconteceu">Se já aconteceu</a></li>
+    <li><a href="#recorrer">A quem recorrer</a></li>
+    <li><a href="#leis">O que diz a lei</a></li>
+    <li><a href="#fontes">Fontes</a></li>
+  </ol>
+</nav>
+
+<section id="projeto">
+  <span class="eyebrow">Apresentação</span>
+  <h2>Sobre o projeto</h2>
+  <p>Este guia faz parte do projeto de extensão <strong>“Proteção social do idoso: orientação jurídica e prevenção contra fraudes previdenciárias”</strong>, desenvolvido por estudantes do curso de Direito da UNAMA, em Rio Branco (AC), na disciplina de Atividades Práticas Interdisciplinares de Extensão V.</p>
+  <p>O trabalho envolve ações de orientação jurídica voltadas a aposentados e pensionistas, e este artigo reúne o essencial em linguagem simples.</p>
+  <p>A ideia é uma só: <strong>quem conhece os seus direitos já tem a primeira defesa contra a fraude.</strong></p>
+</section>
+
+<section id="contexto">
+  <span class="eyebrow">Contexto</span>
+  <h2>Por que isso importa</h2>
+  <p>Para a maior parte dos idosos, o benefício do INSS é a principal (e muitas vezes a única) fonte de renda da casa. Por isso, qualquer desconto que não foi autorizado ou golpe que leve parte do dinheiro pesa muito no fim do mês.</p>
+  <div class="stats">
+    <div class="stat"><div class="n">R$ 6,3 bi</div><p>descontados de aposentados e pensionistas por associações entre 2019 e 2024, segundo estimativa da Polícia Federal e da CGU (Operação Sem Desconto). Parte tinha autorização; o esquema investigado envolve descontos sem consentimento.</p></div>
+    <div class="stat"><div class="n">+ R$ 3 bi</div><p>já devolvidos a mais de 4,5 milhões de aposentados e pensionistas, segundo o Ministério da Previdência Social (maio de 2026).</p></div>
+  </div>
+  <p>O risco costuma ser maior para quem vive no interior ou na zona rural: a renda está concentrada no benefício, há pouca familiaridade com o celular e as agências do INSS ficam longe de casa. Quem mora longe tende a confiar em quem “resolve” as coisas por ele, e é aí que os golpistas atuam.</p>
+</section>
+
+<section id="conceitos">
+  <span class="eyebrow">Conceitos</span>
+  <h2>O básico para entender o assunto</h2>
+  <div class="cards">
+    <div class="card"><span class="tag">Meu INSS</span><h3>Seu balcão digital</h3><p>Aplicativo e site oficiais do INSS, acessados com a conta <strong>gov.br</strong>. Ali você vê o extrato do benefício e os descontos. Também pode ligar para o <strong>135</strong>.</p></div>
+    <div class="card"><span class="tag">Desconto associativo</span><h3>Mensalidade tirada do benefício</h3><p>Valor cobrado por associação ou sindicato diretamente na folha do INSS. Foi a origem das fraudes mais graves e hoje é proibido por lei (Lei 15.327/2026, art. 6º, que inseriu o § 8º no art. 115 da Lei 8.213/1991).</p></div>
+    <div class="card"><span class="tag">Consignado</span><h3>Empréstimo com desconto em folha</h3><p>A parcela é descontada do benefício. Só vale com a <strong>sua</strong> autorização pessoal, e existe um limite máximo do benefício que pode ser comprometido: consulte o seu no Meu INSS. Há também o cartão consignado (RMC), que costuma gerar cobranças que a pessoa não entende.</p></div>
+    <div class="card"><span class="tag">Estelionato</span><h3>Enganar para tirar vantagem</h3><p>É crime enganar alguém para obter dinheiro ou vantagem. A pena é de reclusão de 1 a 5 anos, e multa, e sobe de um terço até o dobro quando a vítima é pessoa idosa.</p></div>
+  </div>
+  <p>Vale lembrar também do <strong>Estatuto da Pessoa Idosa</strong> (Lei 10.741/2003), que garante proteção especial a quem tem 60 anos ou mais, inclusive contra a exploração financeira.</p>
+</section>
+
+<section id="golpes">
+  <span class="eyebrow">Atenção</span>
+  <h2>Principais golpes</h2>
+  <p>Os golpes mudam de cara, mas costumam seguir o mesmo roteiro: <strong>pressa, medo ou promessa de dinheiro fácil</strong>. Os mais comuns:</p>
+  <div class="cards">
+    <div class="card"><h3>Falso atendente do INSS</h3><p>Ligação, mensagem ou até visita dizendo que há “problema no benefício” ou “dinheiro a receber”, pedindo dados, senha ou pagamento para liberar.</p></div>
+    <div class="card"><h3>Mensagem com link</h3><p>SMS ou WhatsApp com link para “atualizar cadastro” ou “receber valores”. O link leva a uma página falsa que rouba seus dados.</p></div>
+    <div class="card"><h3>Desconto que você não pediu</h3><p>Mensalidade de associação ou parcela de empréstimo que aparece no extrato sem que você tenha contratado nada.</p></div>
+    <div class="card"><h3>Intermediário “facilitador”</h3><p>Alguém oferece resolver aposentadoria ou ressarcimento e cobra uma taxa adiantada, ou pede seu cartão e senha. O serviço do INSS é gratuito.</p></div>
+    <div class="card"><h3>Falso parente em apuros</h3><p>Mensagem de número desconhecido: “Mãe, mudei de número, preciso de um Pix urgente”. Sempre confirme por ligação.</p></div>
+    <div class="card"><h3>Uso da sua conta</h3><p>Pedem para você “emprestar” a conta ou o Pix para receber dinheiro. Isso pode virar crime também para quem emprestou, com pena de 1 a 5 anos (veja “O que diz a lei”).</p></div>
+  </div>
+</section>
+
+<section id="evitar">
+  <span class="eyebrow">Prevenção</span>
+  <h2>Como se proteger</h2>
+  <ul class="check">
+    <li><strong>O INSS não cobra para liberar benefício</strong> e não pede senha, código ou cartão por telefone ou mensagem.</li>
+    <li><strong>Desconfie da pressa.</strong> Quem quer que você decida “agora” quer que você não pense. Desligue e converse com alguém de confiança.</li>
+    <li><strong>Não clique em links</strong> recebidos de desconhecidos. Acesse o Meu INSS pelo aplicativo ou site oficial (gov.br/inss).</li>
+    <li><strong>Nunca informe</strong> senha do banco, do gov.br ou códigos recebidos por SMS, nem entregue o cartão a terceiros.</li>
+    <li><strong>Confira o extrato todo mês</strong> no Meu INSS ou no 135. Descontos novos e que você não reconhece são o sinal de alerta.</li>
+    <li><strong>Peça ajuda a alguém da família</strong> para cuidar do celular e das senhas, mas sem entregar a senha a quem você não conhece bem.</li>
+    <li><strong>Consignado não se contrata por telefone nem por procuração.</strong> A lei proíbe contratar ou desbloquear o empréstimo dessa forma; é preciso autorização pessoal, com biometria e assinatura eletrônica (ou autenticação reforçada). Quem oferecer o contrário está fora da lei.</li>
+    <li><strong>Não assine nem aceite</strong> “ficha de filiação” ou “contrato” sem entender para que serve e sem receber cópia.</li>
+  </ul>
+  <div class="warn"><strong>Regra de ouro:</strong> na dúvida, não pague, não clique e não informe nada. Procure o canal oficial pelo número que você mesmo buscou, nunca pelo que a mensagem mandou.</div>
+</section>
+
+<section id="aconteceu">
+  <span class="eyebrow">Passo a passo</span>
+  <h2>Se já aconteceu</h2>
+  <p>Perceber o problema cedo ajuda a recuperar o dinheiro. Siga esta ordem:</p>
+  <div class="callout">
+    <span class="eyebrow">Em 5 passos</span>
+    <h3>O que fazer</h3>
+    <ol style="margin:.6rem 0 0;padding-left:1.2rem">
+      <li><strong>Confira o extrato</strong> no Meu INSS (ou ligue 135) e anote quais descontos você não reconhece.</li>
+      <li><strong>Guarde provas</strong>: prints, mensagens, números de telefone, comprovantes de pagamento, protocolos.</li>
+      <li><strong>Conteste o desconto</strong> pelos canais do INSS (Meu INSS, 135 ou agência) e peça o ressarcimento. Se pagou ou passou dados a um golpista, avise logo o seu banco.</li>
+      <li><strong>Registre a ocorrência</strong> na delegacia (ou delegacia virtual) quando houver golpe.</li>
+      <li><strong>Procure orientação jurídica</strong> caso o problema não se resolva: na Defensoria Pública, que é gratuita, ou com um advogado de sua confiança.</li>
+    </ol>
+  </div>
+  <div class="warn">O prazo do INSS para contestar descontos associativos (de março de 2020 a março de 2025) terminou em <strong>20/06/2026</strong>. Se você perdeu esse prazo, <strong>não desista</strong>: procure o INSS, a Defensoria Pública ou um advogado para saber como proceder no seu caso, pois a lei garante a devolução de descontos indevidos.</div>
+</section>
+
+<section id="recorrer">
+  <span class="eyebrow">Ajuda</span>
+  <h2>A quem recorrer</h2>
+  <table>
+    <thead><tr><th>Onde</th><th>Para quê</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Meu INSS</strong> (app e gov.br/inss) ou <strong>135</strong></td><td>Ver extrato, contestar descontos, pedir ressarcimento e tirar dúvidas sobre o benefício.</td></tr>
+      <tr><td><strong>Ouvidoria do INSS</strong> (Fala.BR)</td><td>Reclamar de atendimento ou de problema que não foi resolvido.</td></tr>
+      <tr><td><strong>Defensoria Pública</strong><br><small>da União (dpu.def.br) ou do seu estado</small></td><td>Orientação e ação judicial gratuitas para quem não pode pagar advogado.</td></tr>
+      <tr><td><strong>Delegacia de Polícia</strong> (ou delegacia virtual)</td><td>Registrar boletim de ocorrência em caso de golpe ou fraude.</td></tr>
+      <tr><td><strong>Seu banco</strong> e <strong>Procon</strong></td><td>Contestar empréstimo ou cartão não contratado e cobranças indevidas.</td></tr>
+      <tr><td><strong>Disque 100</strong></td><td>Denunciar violação de direitos da pessoa idosa, inclusive exploração financeira.</td></tr>
+      <tr><td><strong>Sindicato ou associação de confiança</strong></td><td>Apoio e encaminhamento, desde que não cobre nada para “resolver” o benefício.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="leis">
+  <span class="eyebrow">Direitos</span>
+  <h2>O que diz a lei</h2>
+  <div class="cards">
+    <div class="card"><span class="tag">Lei 15.327/2026</span><h3>Fim dos descontos associativos</h3><p>Proíbe desconto de mensalidades de associações e sindicatos nos benefícios do INSS, mesmo com autorização. Garante a devolução integral dos valores descontados indevidamente: a entidade ou o banco deve restituir o valor atualizado em até 30 dias, contados da notificação ou da decisão que reconheça o desconto como indevido (arts. 2º e 3º). Reforça também o controle do consignado, que volta a ser bloqueado após cada contratação.</p></div>
+    <div class="card"><span class="tag">Lei 15.397/2026</span><h3>Penas mais duras</h3><p>Endureceu penas de crimes patrimoniais e criou o crime de “cessão de conta laranja”: ceder conta bancária para movimentar dinheiro de crime pode levar a pena de 1 a 5 anos.</p></div>
+    <div class="card"><span class="tag">Código Penal</span><h3>Estelionato contra idoso</h3><p>Enganar alguém para tirar dinheiro é crime (art. 171): reclusão de 1 a 5 anos, e multa. Se a vítima é pessoa idosa, a pena aumenta de um terço até o dobro (§ 4º). Quando o golpe usa informações dadas pela vítima por telefone, redes sociais ou e-mail (fraude eletrônica), a pena é de 4 a 8 anos, e multa (§ 2º-A).</p></div>
+    <div class="card"><span class="tag">Lei 10.741/2003</span><h3>Estatuto da Pessoa Idosa</h3><p>Assegura prioridade, proteção e acesso à Justiça para quem tem 60 anos ou mais.</p></div>
+  </div>
+  <p style="font-size:.92rem;color:var(--muted)">Este material tem finalidade educativa e não substitui a orientação de advogado ou defensor público para o seu caso concreto.</p>
+</section>
+
+<p class="closing">Conhecer os direitos é a primeira defesa contra a fraude.</p>
+
+<section id="fontes">
+  <span class="eyebrow">Referências</span>
+  <h2>Fontes</h2>
+  <ol class="sources">
+    <li>BRASIL. <a href="https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15327.htm">Lei nº 15.327, de 6 de janeiro de 2026</a>. Planalto.</li>
+    <li>AGÊNCIA SENADO. <a href="https://www12.senado.leg.br/noticias/materias/2026/01/07/nova-lei-proibe-descontos-associativos-em-beneficios-do-inss">Nova lei proíbe descontos associativos em benefícios do INSS</a>. 7 jan. 2026.</li>
+    <li>BRASIL. <a href="https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15397.htm">Lei nº 15.397, de 30 de abril de 2026</a>. Planalto.</li>
+    <li>BRASIL. <a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm">Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal)</a>, art. 171.</li>
+    <li>BRASIL. <a href="https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm">Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa)</a>.</li>
+    <li>INSS. <a href="https://www.gov.br/inss">Portal do INSS</a> e canais de atendimento (Meu INSS e 135).</li>
+    <li>AGÊNCIA GOV. <a href="https://agenciagov.ebc.com.br/noticias/202504/201cprotecao-aos-aposentados201d-diz-lewandowski-sobre-operacao-contra-fraudes-em-descontos-no-inss">Operação Sem Desconto: investigação da PF e da CGU</a>. 23 abr. 2025.</li>
+    <li>VIVA. <a href="https://viva.com.br/cidadania-e-direitos/beneficiarios-do-inss-podem-contestar-descontos-indevidos-ate-20-de-junho.html">Beneficiários do INSS podem contestar descontos indevidos até 20 de junho</a>. 17 jun. 2026.</li>
+    <li>MINISTÉRIO DA PREVIDÊNCIA SOCIAL. <a href="https://www.gov.br/previdencia/pt-br/noticias/2026/maio/wolney-queiroz-comenta-queda-na-fila-do-inss-e-ampliacao-de-atendimentos-previdenciarios-nesta-quarta-20">Wolney Queiroz comenta queda na fila do INSS e ampliação de atendimentos previdenciários nesta quarta (20)</a>. 20 maio 2026.</li>
+    <li>DEFENSORIA PÚBLICA DA UNIÃO. <a href="https://www.dpu.def.br/">Site oficial</a>.</li>
+  </ol>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <h4>Projeto de Extensão V · Direito · UNAMA · Rio Branco – AC · 2026</h4>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var sel='section > .eyebrow, section > h2, section > p, section > ul, section > table, .card, .stat, .callout, .warn, .closing, nav.toc';
+  var els=document.querySelectorAll(sel);
+  els.forEach(function(el){
+    el.classList.add('reveal');
+    var g=el.parentElement;
+    if(g&&(g.classList.contains('cards')||g.classList.contains('stats'))){
+      var i=Array.prototype.indexOf.call(g.children,el);
+      el.style.setProperty('--d',(i%3)*0.12+'s');
+    }
+  });
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}});
+  },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+<script>
+(function(){
+  var bar=document.getElementById('progress'),btn=document.getElementById('topo');
+  function upd(){
+    var h=document.documentElement,max=h.scrollHeight-h.clientHeight,y=h.scrollTop||document.body.scrollTop;
+    bar.style.width=(max>0?y/max*100:0)+'%';
+    btn.classList.toggle('show',y>400);
+  }
+  window.addEventListener('scroll',upd,{passive:true});upd();
+  btn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+</body>
+</html>
